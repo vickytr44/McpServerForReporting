@@ -4,7 +4,7 @@ from fastmcp import FastMCP
 import httpx
 
 # Create an MCP server
-mcp = FastMCP("Demo")
+mcp = FastMCP(name = "Metadata MCP", id="my-mcp-server-e6c8d398")
 
 # Add empty list of dependencies to prevent TypeError
 mcp.dependencies = []
